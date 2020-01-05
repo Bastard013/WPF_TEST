@@ -1,11 +1,11 @@
-﻿test
+﻿WPF_TEST
 
 
 winexe
 C#
 .cs
 C:\Users\Admin\Documents\WPF_TEST\WPF_TEST\test\obj\Debug\
-test
+WPF_TEST
 none
 false
 DEBUG;TRACE
@@ -16,5 +16,5 @@ C:\Users\Admin\Documents\WPF_TEST\WPF_TEST\test\App.xaml
 13-1505183044
 MainWindow.xaml;
 
-True
+False
 
