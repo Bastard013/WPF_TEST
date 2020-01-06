@@ -9,14 +9,23 @@
 
         <Grid Margin="0,0,2,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+            
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="0.15*" />
+            <RowDefinition Height="0.85*" />
         </Grid.RowDefinitions>
 
-    </Grid>
+        <TextBlock Text="Приложения" FontSize="35"  Grid.Row="0" Grid.Column="0" Margin="5" />
+        <TextBlock Text="Информация" FontSize="35" Grid.Row="0" Grid.Column="1" Margin="5" />
+            
+        <ListBox Name="listbox_name" Grid.Row="1" Grid.Column="0" BorderBrush="Black" />
+        <ListBox Name="listbox_path" Grid.Row="1" Grid.Column="1" BorderBrush="Black" />
+
+    </Grid> 
+    
+    
 
 </Window>
